@@ -1,5 +1,13 @@
 {
   "dependencies": {
+    "@web/dev-server-esbuild": "^0.3.3",
     "lit": "^2.4.0"
-  }
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.1.35"
+  },
+  "scripts": {
+    "start": "web-dev-server"
+  },
+  "type": "module"
 }
